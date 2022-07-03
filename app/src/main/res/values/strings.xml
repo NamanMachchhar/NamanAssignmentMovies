@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NamanAssignment</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="set_profile">Set Profile</string>
+    <string name="post_your_comment">Post your comment here...</string>
+    <string name="please_enter_comment">Please type comment to submit</string>
+    <string name="submit">Submit</string>
+    <string name="comment_saved">Comment Saved!</string>
+
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+</resources>

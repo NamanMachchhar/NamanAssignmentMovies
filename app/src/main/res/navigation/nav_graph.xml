@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/landingFragment">
+
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="com.example.namanassignment.feature.landing.LandingFragment"
+        android:label="Popular movies"
+        tools:layout="@layout/landing_fragment">
+        <action
+            android:id="@+id/action_landingFragment_to_detailMovieFragment"
+            app:destination="@id/detailMovieFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailMovieFragment"
+        android:name="com.example.namanassignment.feature.detail.DetailFragment"
+        android:label="detail_movie_fragment"
+        tools:layout="@layout/detail_fragment">
+
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+
+    </fragment>
+
+</navigation>

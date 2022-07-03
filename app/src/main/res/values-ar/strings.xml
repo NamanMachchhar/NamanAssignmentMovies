@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NamanAssignment</string>
+
+    <string name="title">عنوان</string>
+    <string name="description">وصف</string>
+    <string name="set_profile">تعيين الملف الشخصي</string>
+    <string name="post_your_comment">أضف تعليقك هنا ...</string>
+    <string name="please_enter_comment">الرجاء كتابة تعليق لتقديم</string>
+    <string name="submit">يُقدِّم</string>
+    <string name="comment_saved">تم حفظ التعليق!</string>
+
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+</resources>
